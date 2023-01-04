@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div
+    <!-- <div
       style="
-        height: 100vh;
+        height: 800px;
         background-image: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/bg1.jpg);
         background-repeat: no-repeat;
       "
@@ -57,9 +57,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <!-- <div class="owl-carousel owl-theme content">
+    <!-- <div class="owl-carousel owl-theme content">
         <div class="item">
           <div class="testimonial_content">
             <div class="row testtimonial align-items-center">
@@ -148,6 +148,21 @@
           </div>
         </div>
       </div> -->
+    <!-- </div> -->
+
+    <div class="owl-carousel owl-theme">
+      <div class="item"><h4>1</h4></div>
+      <div class="item"><h4>2</h4></div>
+      <div class="item"><h4>3</h4></div>
+      <div class="item"><h4>4</h4></div>
+      <div class="item"><h4>5</h4></div>
+      <div class="item"><h4>6</h4></div>
+      <div class="item"><h4>7</h4></div>
+      <div class="item"><h4>8</h4></div>
+      <div class="item"><h4>9</h4></div>
+      <div class="item"><h4>10</h4></div>
+      <div class="item"><h4>11</h4></div>
+      <div class="item"><h4>12</h4></div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -166,22 +181,25 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./owl.carousel.min.js"></script>
     <script>
       $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
+        dots: true,
         responsive: {
           0: {
             items: 1,
           },
-          600: {
-            items: 1,
-          },
           1000: {
-            items: 1,
+            items: 2,
           },
         },
       });
